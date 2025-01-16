@@ -6,15 +6,21 @@
 ## Features
 ### 1. CSV Upload:
 Upload a CSV file containing user route data.
+
+
 ![image](https://github.com/user-attachments/assets/5ceea48a-2651-4f05-ba92-3c544d7db357)
 
 ### 2. Summery :
 View a summery for Potential Savings.
+
+
 ![image](https://github.com/user-attachments/assets/29eec8a0-3dcd-42a1-8afe-8384db5e03bb)
 
 
 ### 3. Percentile-Based Filtering:
 Filter and view market rates at the 10th, 50th, and 90th percentiles.
+
+
 ![image](https://github.com/user-attachments/assets/ab293856-5366-452f-b1c5-9be4731162e1)
 
 
@@ -57,7 +63,9 @@ A component to display the potential savings summary for each route.
 The frontend communicates with the backend through the following endpoints:
 
 POST /upload_csv: Upload a CSV file containing user route data. The file is parsed, and the data is sent to the backend.
+
 GET /fetch_user_rates: This endpoint fetches the aggregated market rates and user-uploaded rates. It also calculates potential savings.
+
 POST /upload_market_data: This endpoint aggregates market data into percentiles (10th, median, 90th) and stores it in the aggregated_market_prices table.
 
 
