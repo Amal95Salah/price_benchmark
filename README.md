@@ -4,22 +4,25 @@
  price benchmarking tool that allows customers to compare their shipping prices with market prices. The tool will enable users to upload a CSV file of their shipping data, which will then be analyzed and compared against pre-existing market price data. The output will show how their prices compare to the market, highlighting total spending and potential savings.
 
 ## Features
-# 1. CSV Upload: Upload a CSV file containing user route data.
-# 2. Market vs. User Rates: View a comparison between user-uploaded rates and aggregated market rates.
-# 3. Percentile-Based Filtering: Filter and view market rates at the 10th, 50th, and 90th percentiles.
+### 1. CSV Upload: Upload a CSV file containing user route data.
+### 2. Market vs. User Rates: View a comparison between user-uploaded rates and aggregated market rates.
+### 3. Percentile-Based Filtering: Filter and view market rates at the 10th, 50th, and 90th percentiles.
 
 ## Requirements
 Node.js (v16.0 or higher)
 npm (v8.0 or higher)
 
 ## Setup
-# 1. Clone the Repository
+### 1. Clone the Repository
+```
+https://github.com/Amal95Salah/price_benchmark.git
+```
 
-# 2. Install Dependencies
+### 2. Install Dependencies
 ```
 npm install
 ```
-# 3. Running the Development Server
+### 3. Running the Development Server
 Start the development server:
 ```
 npm start
@@ -28,16 +31,16 @@ npm start
 This will run the application on http://localhost:3000.
 
 ## Frontend Components
-# App.js:
+### App.js:
 The main component that renders the application, handles file upload, and displays results.
 
-# FileUpload.js:
+### FileUpload.js:
 A component to handle the CSV file upload and send the data to the backend.
 
-# Chart.js:
+### Chart.js:
 A component to visualize market vs. user rates.
 
-# Summary.js:
+### Summary.js:
 A component to display the potential savings summary for each route.
 
 ## Backend Integration
