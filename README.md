@@ -4,9 +4,19 @@
  price benchmarking tool that allows customers to compare their shipping prices with market prices. The tool will enable users to upload a CSV file of their shipping data, which will then be analyzed and compared against pre-existing market price data. The output will show how their prices compare to the market, highlighting total spending and potential savings.
 
 ## Features
-### 1. CSV Upload: Upload a CSV file containing user route data.
-### 2. Market vs. User Rates: View a comparison between user-uploaded rates and aggregated market rates.
-### 3. Percentile-Based Filtering: Filter and view market rates at the 10th, 50th, and 90th percentiles.
+### 1. CSV Upload:
+Upload a CSV file containing user route data.
+![image](https://github.com/user-attachments/assets/5ceea48a-2651-4f05-ba92-3c544d7db357)
+
+### 2. Summery :
+View a summery for Potential Savings.
+![image](https://github.com/user-attachments/assets/29eec8a0-3dcd-42a1-8afe-8384db5e03bb)
+
+
+### 3. Percentile-Based Filtering:
+Filter and view market rates at the 10th, 50th, and 90th percentiles.
+![image](https://github.com/user-attachments/assets/ab293856-5366-452f-b1c5-9be4731162e1)
+
 
 ## Requirements
 Node.js (v16.0 or higher)
